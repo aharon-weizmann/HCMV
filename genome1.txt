@@ -1,0 +1,10 @@
+genome HCMV
+trackDb tracks1.txt
+#groups ricCom1/groups.txt
+description HCMV
+twoBitPath files/merlin.2bit
+#organism HCMV
+#defaultPos EQ973772:1000000-2000000
+#orderKey 4800
+#scientificName Ricinus communis
+#htmlPath ricCom1/description.html
