@@ -1,21 +1,21 @@
-track ORFs_predic
+track HCMV
 priority 1
 visibility full
-shortLabel Predic ORFs
-longLabel Predicted ORFs
+shortLabel merlin
+longLabel merlin
 type group
 superTrack on
 group regulation
 
 track ORFs
 priority 2
-parent ORFs_predic
-shortLabel ORFs predictions
-longLabel ORFs predictions
+parent HCMV
+shortLabel HCMV_ORFs
+longLabel HCMV ORFs
 type bigBed 12 +
 autoScale on
 visibility full
 itemRgb on
-bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/ORFs.bb
+bigDataUrl files/merlin.bb
 color 40,80,120
 
