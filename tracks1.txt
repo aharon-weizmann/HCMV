@@ -18,4 +18,5 @@ visibility full
 itemRgb on
 bigDataUrl files/merlin.bb
 color 40,80,120
+searchIndex name
 
