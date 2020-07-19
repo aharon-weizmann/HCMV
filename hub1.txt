@@ -1,0 +1,6 @@
+hub HCMV-1
+shortLabel HCMV
+longLabel Human Cytomegalovirus
+genomesFile genome1.txt
+email aharonn@weizmann.ac.il
+#descriptionUrl aboutHub.html

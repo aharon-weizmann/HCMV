@@ -1,0 +1,21 @@
+track ORFs_predic
+priority 1
+visibility full
+shortLabel Predic ORFs
+longLabel Predicted ORFs
+type group
+superTrack on
+group regulation
+
+track ORFs
+priority 2
+parent ORFs_predic
+shortLabel ORFs predictions
+longLabel ORFs predictions
+type bigBed 12 +
+autoScale on
+visibility full
+itemRgb on
+bigDataUrl https://github.com/aharon-weizmann/Corona-ORFs/test/ORFs.bb
+color 40,80,120
+
